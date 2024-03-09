@@ -1,17 +1,18 @@
 body{
-  font-family:'Times New Roman', Times, serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 :root{
-    --dark-color: #1a338e;
+    --main-color:#00ddff;
     --gray-color: #969fb3;
     --red-color: #ff3150;
-    --yellow-color: #ffc400;
     --section-color: #eff7fa;
+    --yellow-color:yellow;
 }
 body{
     height:10000vh;
 }
-.logo{
+.logo
+ {
     background-color:var(--gray-color);
 }
 .navbar-brand{
@@ -19,12 +20,12 @@ body{
 }
 
 .main-btn {
-    background-color: var(--yellow-color);
+    background-color: var(--main-color);
     color:white;
     padding: 0.5rem 1rem;
 }
 .main-btn:hover {
-    color: var(--yellow-color);
+    color: var(--red-color);
 }
 .main-title::after{
     content: '';
@@ -36,8 +37,12 @@ body{
     left: 50%;
     transform: translateX(-50%);
 }
+.aya {
+  background-color: var(--gray-color);
+}
 .navbar {
-    background-color: var(--dark-color);
+    background-color: var(--main-color);
+    height:50px;
 }
 
 
@@ -46,7 +51,7 @@ body{
 }
 
 .navbar .navbar-nav .nav-link {
-  color: var(--gray-color);
+  color: var(--red-color);
 }
 
 .navbar .navbar-nav .nav-link:focus,
@@ -57,7 +62,7 @@ body{
 .navbar .navbar-toggler {
   color:var(--gray-color);
   font-size: 25px;
-  border-color:var(--dark-color);}
+  border-color:var(--main-color);}
  
 .navbar .navbar-toggler:focus {
   box-shadow: none;
@@ -66,25 +71,25 @@ body{
   border-color: var(--gray-color);
 }
 .landing{
-    background-image: url(/img/pexels-asad-photo-maldives-1268871.jpg);
+    background-image: url(/img/fabio-fistarol-qai_Clhyq0s-unsplash.jpg);
     min-height: calc(100vh - 72px);
     background-size: cover;
    
 }
+
 .landing .titre,
 .rooms h2{
    text-transform: uppercase;
-   color: var(--dark-color);
-   letter-spacing: 10PX;
-   
+   color: var(--main-color);
 }
+
 /*start Rooms*/
 .rooms {
   background-color: var(--section-color)
 }
 
 .rooms .star {
-  color: var(--yellow-color);
+  color: yellow;
 }
  .rooms .card
   {
@@ -104,11 +109,11 @@ position: relative;
   transition: .2s;
 }
  .rooms .card-text span {
-  color: var(--dark-color);
+  color: var(--main-color);
  }
  .hayat {
  content: "";
-  background-color: var(--dark-color);
+  background-color: var(--main-color);
   color: white;
   width: 25%;
  position: absolute;
