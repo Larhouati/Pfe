@@ -1,8 +1,8 @@
 body{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
 }
 :root{
-    --main-color:#00ddff;
+    --main-color:#268593;
     --gray-color: #969fb3;
     --red-color: #ff3150;
     --section-color: #eff7fa;
@@ -19,7 +19,8 @@ body{
     color:white;
 }
 
-.main-btn {
+.main-btn
+ {
     background-color: var(--main-color);
     color:white;
     padding: 0.5rem 1rem;
@@ -51,7 +52,7 @@ body{
 }
 
 .navbar .navbar-nav .nav-link {
-  color: var(--red-color);
+  color: var(--section-color);
 }
 
 .navbar .navbar-nav .nav-link:focus,
@@ -71,16 +72,21 @@ body{
   border-color: var(--gray-color);
 }
 .landing{
-    background-image: url(/img/fabio-fistarol-qai_Clhyq0s-unsplash.jpg);
+    background-image: url(/img/image_2.jpg);
     min-height: calc(100vh - 72px);
     background-size: cover;
    
 }
 
 .landing .titre,
-.rooms h2{
+.rooms h2,
+.contact-section h2 {
    text-transform: uppercase;
    color: var(--main-color);
+   letter-spacing: 10px;
+}
+.text2 {
+  color: var(--gray-color);
 }
 
 /*start Rooms*/
@@ -121,5 +127,13 @@ position: relative;
   right: 61%;
  }
 /*end Rooms */
-
-
+/*start login form*/
+section {
+  background-color: #eee;
+}
+.card-body img {
+width: 200px;
+}
+.power {
+  background-color: var(--main-color);
+}
